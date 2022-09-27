@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sviluppo di una pagina web-Blog Epicode</title>
+</head>
+
+<body>
+    <h1>Primi passi operativi per creare un modello di pagina HTML per un post.Scopri come iniziare in modo facile.</h1>
+
+    <!--Header-->
+    <header>
+        <div>
+            <img src="assets/img/logo.svg" alt="logo epicode">
+            <h2>Epicode - Il blog dei developers</h2>
+        </div>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="articoli.html">Articoli</a></li>
+                    <li><a href="job.html">Job</a></li>
+                </ul>
+                <button>Naviga</button>
+            </div>
+        </nav>
+    </header>
+    <!--Main-->
+    <main>
+        <hr>
+        <div>
+            <div>
+                <h2>Come creare un template per i post</h2>
+                <h3>di Mario Rossi - pubblicato il 25-10-2020</h3>
+            </div>
+
+            <div>
+                <h4>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da
+                    applicare a tutte le pagine</h4>
+
+                <h2>Le varie aree saranno quindi suddivise in:</h2>
+
+                <ul>
+                    <li>Contenuti di intestazione nel tag <strong>&lt;header&gt;</strong></li>
+                    <li>Contenuti centrali variabili del tag<strong>&lt;main&gt;</strong>(corpo principale)</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag<strong>&lt;footer&gt;</strong></li>
+                    <li>Formattazione del codice</li>
+                </ul>
+
+                <h2>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                    CSS. Perciò i passi saranno:</h2>
+
+                <ul>
+                    <li>Progettare su carta il markup finale, assegnando ogni specifico testo il tag appropriato
+                    </li>
+                    <li>Scrivere l'<abbr title="Hyper-Text-Markup-Language">HTML</abbr> dei tag esterni a quelli interni
+                        e dall'alto verso il basso</li>
+                    <li>Applicare gli stili <abbr title="Cascading-style-sheets">CSS</abbr></li>
+                    <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché
+                        totale.</li>
+                </ul>
+            </div>
+
+            <div>
+                <!--Tabella-->
+                <table>
+                    <caption>Diffusione dei CSS</caption>
+                    <!--Thead-->
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>% di utilizzo</th>
+                            <th>Supporto browser</th>
+                        </tr>
+                    </thead>
+                    <!--Tbody-->
+                    <tbody>
+                        <tr>
+                            <td>2000</td>
+                            <td>20%</td>
+                            <td>17%</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35%</td>
+                            <td>22%</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>45%</td>
+                            <td>42%</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80%</td>
+                            <td>51%</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100%</td>
+                            <td>76%</td>
+                        </tr>
+                    </tbody>
+                    <!--Tfoot-->
+                    <tfoot>
+                        <td>Percentuale</td>
+                        <td>di utilizzo</td>
+                        <td>annuo</td>
+                    </tfoot>
+                </table>
+
+                <div>
+                    <div>
+                        <p>Un test di validazione potrà essere fatto tramite il tool online <a
+                                href="https://www.w3.org/" target="_blank">W3C</a> dedicato allo scopo. Una volta
+                            ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed esere stati dei veri
+                            developers come loro:</p>
+                    </div>
+
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ek40kaV9IZY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        </iframe>
+                    </div>
+
+                </div>
+    </main>
+    <!--Aside-->
+    <aside>
+        <div>
+            <h2>Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla nostra newsletter: </h2>
+
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>Iscriviti alla nostra newsletter</legend>
+                    <label for="email">Inserisci l'email</label>
+                    <input type="email" name="email" id="nome" placeholder="Inserisci la tua email" required>
+                    <input type="submit" value="iscriviti">
+                </fieldset>
+            </form>
+        </div>
+
+        <h2>Articoli correlati</h2>
+        <div>
+            <div>
+                <h4>Validare il codice HTML</h4>
+                <h4>Categoria:develop</h4>
+                <h5>Data:18-9-2020</h5>
+            </div>
+            <hr>
+            <div>
+                <h3>Correggere la sintassi</h3>
+                <h4>Categoria:develop</h4>
+                <h5>Data:16-9-2020</h5>
+            </div>
+            <hr>
+            <div>
+                <h3>Meno Kb nella pagina <abbr title="hyper-text-markup-language">HTML</abbr></h3>
+                <h4>Categoria:ottimizzazione</h4>
+                <h5>Data:30-9-2020</h5>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </aside>
+
+    <hr>
+    <!--Footer-->
+    <footer>
+        <p><strong> Blog Epicode&#169;</strong> 2021Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+            Luigi Einaudi 2 - Milano. P.IVA 00112233 <a href="mailto:info@epicode.school"
+                target="_blank">info@epicode.school</a></p>
+    </footer>
+</body>
+
+</html
